@@ -1,0 +1,34 @@
+$mdc-theme-primary: #000;
+$mdc-theme-secondary: #2196f3;
+$mdc-theme-on-primary: #fff;
+$mdc-theme-on-secondary: #000;
+$mdc-theme-error: #FF1744;
+
+@import '@material/react-card/index.scss';
+@import '@material/react-button/index.scss';
+@import '@material/react-text-field/index.scss';
+
+.card {
+  width: 25rem;
+}
+
+.mdc-card__primary-action	{
+  padding: 2rem 2rem 0 2rem;
+}
+
+.mdc-card__actions {
+  align-items: flex-end;
+  padding: 8px 2rem 1rem;
+}
+
+.card-wrapper {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.termsofservice {
+  font-size: .75rem;
+}

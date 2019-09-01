@@ -1,0 +1,13 @@
+.grid{
+  padding-top: 2rem;
+}
+
+.articleGrid {
+  display: flex; /* [1] */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.headline {
+  font-family: 'Roboto', sans-serif;
+}

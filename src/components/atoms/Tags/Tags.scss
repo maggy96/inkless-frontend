@@ -1,0 +1,13 @@
+@import '@material/react-chips/index.scss';
+
+.tagcloud {
+  padding-top: 4rem;
+  display: flex; /* [1] */
+  flex-wrap: wrap;
+  justify-content: center;
+  // background: hsl(0,0,.45);
+}
+
+.mdc-chip {
+  background-color: #cfd8dc;
+}

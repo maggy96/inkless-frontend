@@ -1,0 +1,16 @@
+// $mdc-theme-primary: #2962ff;
+// $mdc-theme-secondary: #2196f3;
+// $mdc-theme-on-primary: #fff;
+// $mdc-theme-on-secondary: #000;
+// $mdc-theme-error: #FF1744;
+@import "@material/linear-progress/mdc-linear-progress";
+
+.loading {
+  @include mdc-linear-progress-bar-color(#2196f3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3px;
+  z-index: 10000;
+}

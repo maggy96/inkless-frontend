@@ -1,0 +1,48 @@
+$mdc-theme-primary: #000;
+$mdc-theme-secondary: #2196f3;
+$mdc-theme-on-primary: #fff;
+$mdc-theme-on-secondary: #000;
+$mdc-theme-error: #FF1744;
+@import "@material/card/mdc-card";
+
+.preview,
+.mdc-card {
+  cursor: pointer;
+  width: 16rem;
+  height: 23rem;
+  padding: 2rem;
+  margin: 2rem 1rem;
+  overflow: hidden;
+}
+
+.brandmark {
+  padding-top: .5rem;
+  text-align: center;
+  height: 2rem;
+}
+
+.smallprint {
+  text-align: center;
+  font-size: 1.0rem;
+  color: hsl(0,0,45%);
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.headline {
+  font-weight: 500;
+  padding-top: 1.5rem;
+  line-height: 1.25;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.intro {
+  padding-top: .5rem;
+  font-size: .8rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: hsl(0,0,25%);
+  font-family: 'Roboto', sans-serif;
+}
